@@ -39,19 +39,20 @@ li{
 
 #total{
     
-    position: absolute;
+    margin:10px auto;
+    padding:0;
+    width:940px;
+    /*position: absolute;
     top: 0;
     right: 15em;
     bottom: 0;
-    left: 15em;
+    left: 15em;*/
     background:#f0efe7;
 }
 
 #main_nav{
 
-    position:absolute;
-    top: 0;
-    left: 0;
+    float:left;
     bottom: 0;
     width: 12em;
 
@@ -61,12 +62,15 @@ li{
 
 #content{
     
-    position:absolute;
-    top: 0;
+    float:right;
+    /*top: 0;
     left: 4em;
     margin-left:14em;
     margin-right:2em;
-    margin-bottom:0em;
+    margin-bottom:0em;*/
+    padding:0;
+    margin:0;
+    
 
 
 }
